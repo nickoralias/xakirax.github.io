@@ -3,12 +3,14 @@ body {
     font-size: 16px;
     margin: 0px auto 0px auto;
     width: 600px;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif
 }
 
 header {
     border-bottom: 2px solid black;
     margin-bottom: 30px;
     padding: 12px 0px 12px 0px;
+    font-size: 26px;
 }
 
 nav {
@@ -41,6 +43,10 @@ h2 {
     font-size: 20px;
 }
 
+h3 {
+    font-size: 36px;
+}
+
 article .header {
     color: #555;
     font-size: 14px;
@@ -50,7 +56,7 @@ article .header {
 .logo a {
     color: black;
     float: left;
-    font-size: 18px;
+    font-size: 36px;
     font-weight: bold;
     text-decoration: none;
 }
