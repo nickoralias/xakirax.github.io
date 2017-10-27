@@ -2,7 +2,7 @@
 git stash
 
 # Verify correct branch
-git checkout develop
+git checkout hakyll
 
 # Build new files
 stack exec myblog clean
@@ -23,6 +23,6 @@ git commit -m "Publish."
 git push origin master:master
 
 # Restoration
-git checkout develop
+git checkout hakyll
 git branch -D master
 git stash pop
